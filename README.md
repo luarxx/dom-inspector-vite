@@ -1,5 +1,7 @@
 # vite-plugin-dom-inspector
 
+[README em português](./README.pt-BR.md)
+
 A Vite plugin that injects a visual DOM inspector in the bottom-right corner of the page during **development mode**.
 
 > Works only with `vite dev` (does not affect production builds).
