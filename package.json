@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-dom-inspector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite plugin that injects a DOM inspector overlay (development only)",
   "type": "module",
   "main": "./index.js",
