@@ -6,7 +6,7 @@ Plugin Vite que injeta um inspetor DOM visual no canto inferior direito da pági
 
 ## Motivação
 
-Muitas extensões, IDEs e GUIs com IA não possuem um seletor de DOM integrado. Este plugin preenche essa lacuna: em vez de escrever seletores manualmente, você inspeciona visualmente qualquer elemento da página e copia o seletor CSS com um clique — agilizando o processo de fornecer contexto preciso para ferramentas de IA.
+Muitas extensões, IDEs e GUIs com IA não possuem um seletor de DOM integrado. Este plugin preenche essa lacuna: em vez de escrever seletores manualmente, você inspeciona visualmente qualquer elemento da página e copia o seletor CSS com um clique, agilizando o processo de fornecer contexto preciso para ferramentas de IA.
 
 ---
 

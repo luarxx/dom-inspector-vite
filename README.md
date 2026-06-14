@@ -8,7 +8,7 @@ A Vite plugin that injects a visual DOM inspector in the bottom-right corner of 
 
 ## Motivation
 
-Many AI-powered extensions, IDEs, and GUIs lack a built-in DOM selector. This plugin fills that gap: instead of writing selectors manually, you visually inspect any element on the page and copy its CSS selector with a single click — streamlining the process of providing precise context to AI tools.
+Many AI-powered extensions, IDEs, and GUIs lack a built-in DOM selector. This plugin fills that gap: instead of writing selectors manually, you visually inspect any element on the page and copy its CSS selector with a single click, streamlining the process of providing precise context to AI tools.
 
 ---
 
