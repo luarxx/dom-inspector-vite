@@ -17,15 +17,15 @@
     "dev-tool"
   ],
   "license": "MIT",
-  "author": "Your Name <you@example.com>",
+  "author": "Raul Lennon Gonçalves Almeida <raullennon@raulrockclub.com.br>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/dom-inspector.git"
+    "url": "git+https://github.com/luarxx/dom-inspector-vite.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/dom-inspector/issues"
+    "url": "https://github.com/luarxx/dom-inspector-vite/issues"
   },
-  "homepage": "https://github.com/your-username/dom-inspector#readme",
+  "homepage": "https://github.com/luarxx/dom-inspector-vite#readme",
   "peerDependencies": {
     "vite": "^4.0.0 || ^5.0.0 || ^6.0.0"
   },
