@@ -1,24 +1,24 @@
 # vite-plugin-dom-inspector
 
-Plugin Vite que injeta um inspetor DOM visual no canto inferior direito da página durante o **modo de desenvolvimento**.
+A Vite plugin that injects a visual DOM inspector in the bottom-right corner of the page during **development mode**.
 
-> Funciona apenas com `vite dev` (não afeta a build de produção).
+> Works only with `vite dev` (does not affect production builds).
 
-## Motivação
+## Motivation
 
-Muitas extensões, IDEs e GUIs com IA não possuem um seletor de DOM integrado. Este plugin preenche essa lacuna: em vez de escrever seletores manualmente, você inspeciona visualmente qualquer elemento da página e copia o seletor CSS com um clique — agilizando o processo de fornecer contexto preciso para ferramentas de IA.
+Many AI-powered extensions, IDEs, and GUIs lack a built-in DOM selector. This plugin fills that gap: instead of writing selectors manually, you visually inspect any element on the page and copy its CSS selector with a single click — streamlining the process of providing precise context to AI tools.
 
 ---
 
-## Instalação
+## Installation
 
 ```bash
 npm install --save-dev vite-plugin-dom-inspector
 ```
 
-## Configuração
+## Setup
 
-No seu arquivo `vite.config.js` (ou `vite.config.ts`):
+In your `vite.config.js` (or `vite.config.ts`):
 
 ```js
 import { defineConfig } from 'vite'
@@ -33,17 +33,17 @@ export default defineConfig({
 })
 ```
 
-Pronto! Ao rodar `npm run dev`, um botão **Inspect** aparecerá no canto inferior direito da página.
+That's it! When you run `npm run dev`, an **Inspect** button will appear in the bottom-right corner of the page.
 
-## Como usar
+## How to use
 
-1. Clique no botão **Inspect** (ícone de lupa) para ativar o modo de inspeção (o botão fica vermelho).
-2. Mova o mouse sobre os elementos da página — um brilho azul destacará o elemento sob o cursor.
-3. Um tooltip escuro exibirá a **tag**, **ID** e **classes CSS** do elemento.
-4. **Clique** em qualquer elemento para copiar o seletor e o HTML externo para a área de transferência.
-5. Pressione **Escape** ou clique no botão **Close** para desativar.
+1. Click the **Inspect** button (magnifying glass icon) to activate inspection mode (the button turns red).
+2. Hover over page elements — a blue glow will highlight the element under the cursor.
+3. A dark tooltip shows the element's **tag**, **ID**, and **CSS classes**.
+4. **Click** any element to copy its selector and outer HTML to the clipboard.
+5. Press **Escape** or click the **Close** button to deactivate.
 
-| Estado | Botão | Comportamento |
-|--------|-------|---------------|
-| Inativo | Inspect (azul) | Nada acontece ao mover o mouse |
-| Ativo | Close (vermelho) | Destaque azul + tooltip ao mover o mouse; clique copia seletor e HTML |
+| State | Button | Behavior |
+|-------|--------|----------|
+| Inactive | Inspect (blue) | Nothing happens on hover |
+| Active | Close (red) | Blue highlight + tooltip on hover; click copies selector and HTML |
